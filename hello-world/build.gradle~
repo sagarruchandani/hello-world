@@ -12,8 +12,6 @@ dependencies{
     compile("org.springframework.boot:spring-boot-starter-web:1.1.6.RELEASE")
 }
 
-
-
 task run(type: JavaExec, dependsOn: classes) {
     main = 'Main'
     classpath sourceSets.main.runtimeClasspath
